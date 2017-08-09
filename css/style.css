@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url("../fonts/bebas-neue.otf"); }
+
+section#smoke-signup {
+  margin: 20px 10px;
+  padding: 10px;
+  border-radius: 2px;
+  background-image: url(../bg.png); }
+  section#smoke-signup * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  section#smoke-signup p {
+    color: #969696; }
+  section#smoke-signup form#mc-embedded-subscribe-form {
+    margin: 7px 0px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+    section#smoke-signup form#mc-embedded-subscribe-form input.email {
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      margin-right: 10px;
+      padding: 10px;
+      border: 1px solid #dfdfdf;
+      font-family: "Open Sans Condensed", Helvetica, sans-serif;
+      font-size: 1.2em;
+      border-radius: 2px; }
+    section#smoke-signup form#mc-embedded-subscribe-form input.button {
+      width: 120px;
+      padding: 10px 20px;
+      color: #f6f6f6;
+      background-color: #A42739;
+      border: none;
+      font-family: "Bebas Neue", Oswald, sans-serif;
+      border-radius: 40px;
+      font-size: 1.4em; }
+      section#smoke-signup form#mc-embedded-subscribe-form input.button:hover {
+        -webkit-filter: brightness(1.1);
+        filter: brightness(1.1); }
+
+@media screen and (min-width: 800px) {
+  section#smoke-signup {
+    margin: 20px 0px;
+    padding: 20px; }
+    section#smoke-signup form#mc-embedded-subscribe-form input.email {
+      margin-right: 20px; }
+    section#smoke-signup form#mc-embedded-subscribe-form input.button {
+      padding: 15px 20px; } }

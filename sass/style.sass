@@ -1,0 +1,63 @@
+// Fonts
+@font-face
+  font-family: 'Bebas Neue'
+  src: url('../fonts/bebas-neue.otf')
+
+// Color scheme
+$brand-red: #bb2d42
+$dark-red: #A42739
+$brand-blue: #254461
+$dark-grey: #2d2d2d
+$mid-grey: #505050
+$light-grey: #969696
+$bg-grey: #f6f6f6
+
+// Default font stacks
+$h-stack: "Bebas Neue", Oswald, sans-serif
+$p-stack: "Open Sans Condensed", Helvetica, sans-serif
+
+section#smoke-signup
+  margin: 20px 10px
+  padding: 10px
+  border-radius: 2px
+  background-image: url(../bg.png)
+  *
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+  p
+    color: $light-grey
+  form#mc-embedded-subscribe-form
+    margin: 7px 0px
+    width: 100%
+    display: flex
+    flex-direction: row
+    input.email
+      flex: 1
+      margin-right: 10px
+      padding: 10px
+      border: 1px solid #dfdfdf
+      font-family: $p-stack
+      font-size: 1.2em
+      border-radius: 2px
+    input.button
+      width: 120px
+      padding: 10px 20px
+      color: $bg-grey
+      background-color: $dark-red
+      border: none
+      font-family: $h-stack
+      border-radius: 40px
+      font-size: 1.4em
+      &:hover
+        filter: brightness(1.1)
+
+@media screen and (min-width: 800px)
+  section#smoke-signup
+    margin: 20px 0px
+    padding: 20px
+    form#mc-embedded-subscribe-form
+      input.email
+        margin-right: 20px
+      input.button
+        padding: 15px 20px
