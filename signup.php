@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Smoke Mailing List
-Plugin URI: http://joshuahackett.com
+Plugin URI: https://github.com/jhackett1/smoke-mailing-list
 Description: Displays a pretty sign-up box for the mailing list, which can be added via the [smoke-signup] shortcode.
 Author: Joshua Hackett
 Author URI: http://joshuahackett.com
